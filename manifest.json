@@ -1,0 +1,26 @@
+{
+  "name": "ChromeQR",
+  "version": "1.0",
+  "description": "Generate a QR code for the current URL. Done.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["tabs", "activeTab", "declarativeContent"],
+  "page_action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "images/qr-16.png",
+      "32": "images/qr-32.png",
+      "48": "images/qr-48.png",
+      "128": "images/qr-128.png"
+    }
+  },
+  "icons": {
+    "16": "images/qr-16.png",
+    "32": "images/qr-32.png",
+    "48": "images/qr-48.png",
+    "128": "images/qr-128.png"
+  },
+  "manifest_version": 2
+}
