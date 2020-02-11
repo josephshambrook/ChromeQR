@@ -2,6 +2,8 @@
 
 An extension for Google Chrome that shows a QR code for the current URL. That's it.
 
+![A QR code for the URL displayed inside a popup window](https://i.ibb.co/WgTb0nK/image.png)
+
 ## Installing on Chrome
 
 1. Clone the repo, or download it as a .zip and unzip.
